@@ -1,0 +1,59 @@
+.post-img {
+  overflow: hidden;
+}
+
+.post-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vw;
+  width: 70vw;
+}
+
+.blog-post-content {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.blog-post-content h1 {
+  font-family: var(--font2);
+  margin-bottom: 12px;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+}
+.blogpost-meta {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(196, 112, 112);
+}
+.author-info {
+  margin: 12px 0;
+}
+
+.author-info div {
+  padding: 6px 0;
+  font-family: var(--font2);
+  font-weight: bolder;
+}
+.social {
+  align-self: center;
+  padding-right: 62px;
+  cursor: pointer;
+}
+.social svg {
+  margin: 10px;
+}

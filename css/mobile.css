@@ -1,0 +1,45 @@
+@media screen and (max-width: 1250px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content-right {
+    display: none;
+  }
+  .content-left h1 {
+    font-size: 1.6rem;
+    margin-top: 1px;
+  }
+  .content-left p {
+    font-size: 1rem;
+  }
+  .home-article {
+    flex-direction: column;
+  }
+
+  .home-article-content h3 {
+    font-size: 1.3rem;
+  }
+  home-article-content span {
+    font-size: 0.5rem;
+  }
+  .form-input {
+    width: 50%;
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+  .form-box input,
+  textarea {
+    width: 66vw;
+  }
+  .social {
+    padding: 0;
+  }
+  .post-img {
+    height: auto;
+  }
+}
